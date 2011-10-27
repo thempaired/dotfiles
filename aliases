@@ -19,6 +19,7 @@ function git(){hub "$@"}
 alias g="git"
 alias gci="git pull --rebase && rake && git push"
 alias gst='git status'
+alias gs='git status'
 alias gl='git pull'
 alias gp='git push'
 alias gd='git diff | mate -'
